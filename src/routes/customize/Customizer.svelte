@@ -2,13 +2,11 @@
 	import Layer from './Layer.svelte';
 </script>
 
-<p style="line-height:150%">Drag the note or change its size using the shown handle:</p>
-
 <div
 	style="
   display:block; position:relative;
   width:400px; height:400px;
-  margin:20px;
+  margin:60px;
   border:solid 1px black
 "
 >

@@ -1,18 +1,18 @@
 <script lang="ts">
 	import '../app.css';
+	import Footer from './Footer.svelte';
+	import Nav from './Nav.svelte';
 </script>
 
-<div class="flex flex-col  justify-center">
-	<div class=" grid grid-cols-6 py-4 bg-gray-100 shadow-lg">
-		<h1><a href="/">Voxo</a></h1>
-		<a href="/wishlist">Wishlist</a>
-		<a href="/customize">Customize</a>
-		<a href="/detail">Detail</a>
-		<a href="/login">Login</a>
-		<a href="/logout">Logout</a>
+<section class="minimum-width relative flex min-h-screen flex-col bg-white antialiased">
+	<div class="h-rem w-full flex-1">
+		<Nav />
+		<div class="mt-20">
+			<slot />
+		</div>
 	</div>
-	<div class="h-full">
-		<slot />
+
+	<div class="hidden sm:block">
+		<Footer />
 	</div>
-	<div class="bg-gray-300">Footer Links</div>
-</div>
+</section>
