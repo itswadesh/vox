@@ -1,8 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@shopify/draggable': 1.0.0-beta.8
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
+  agnostic-draggable-bug-fixed: ^1.0.13
   autoprefixer: ^10.4.8
   postcss: ^8.4.16
   prettier: ^2.6.2
@@ -17,20 +19,20 @@ specifiers:
   typescript: ^4.7.4
   vite: ^3.0.4
 
-dependencies:
-  svelte-agnostic-draggable: 0.1.11
-  svelte-touch-to-mouse: 1.0.0
-
 devDependencies:
+  '@shopify/draggable': 1.0.0-beta.8
   '@sveltejs/adapter-auto': 1.0.0-next.65
   '@sveltejs/kit': 1.0.0-next.429_svelte@3.49.0+vite@3.0.9
+  agnostic-draggable-bug-fixed: 1.0.13
   autoprefixer: 10.4.8_postcss@8.4.16
   postcss: 8.4.16
   prettier: 2.7.1
   prettier-plugin-svelte: 2.7.0_o3ioganyptcsrh6x4hnxvjkpqi
   svelte: 3.49.0
+  svelte-agnostic-draggable: 0.1.11
   svelte-check: 2.8.1_vylzxgme5yisu3bsyvcau4hjtq
   svelte-preprocess: 4.10.7_fje22ktja5v2dh6nbkissncqme
+  svelte-touch-to-mouse: 1.0.0
   tailwindcss: 3.1.8
   tslib: 2.4.0
   typescript: 4.7.4
@@ -43,7 +45,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.9
-    dev: false
+    dev: true
 
   /@cloudflare/workers-types/3.14.1:
     resolution: {integrity: sha512-B1/plF62pt+H2IJHvApK8fdOJAVsvojvacuac8x8s+JIyqbropMyqNqHTKLm3YD8ZFLGwYeFTudU+PQ7vGvBdA==}
@@ -127,6 +129,10 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    dev: true
+
+  /@shopify/draggable/1.0.0-beta.8:
+    resolution: {integrity: sha512-9IeBPQM93Ad4qFKUopwuTClzoST/1OId4MaSd/8FB5ScCL2tl25UaOGNR8E2hjiL7xK4LN5+I1Ews6amS7YAiA==}
     dev: true
 
   /@sveltejs/adapter-auto/1.0.0-next.65:
@@ -298,11 +304,11 @@ packages:
       dom-helpers: 5.2.1
       events: 3.3.0
       lodash: 4.17.21
-    dev: false
+    dev: true
 
   /animejs/3.2.1:
     resolution: {integrity: sha512-sWno3ugFryK5nhiDm/2BKeFCpZv7vzerWUcUPyAZLDhMek3+S/p418ldZJbJXo5ZUOpfm2kP2XRO4NJcULMy9A==}
-    dev: false
+    dev: true
 
   /ansi-regex/5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -461,7 +467,7 @@ packages:
 
   /csstype/3.1.0:
     resolution: {integrity: sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==}
-    dev: false
+    dev: true
 
   /data-uri-to-buffer/4.0.0:
     resolution: {integrity: sha512-Vr3mLBA8qWmcuschSLAOogKgQ/Jwxulv3RNE4FXnYWRGujzrRWQI4m12fQqRkwX06C0KanhLr4hK+GydchZsaA==}
@@ -530,7 +536,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       csstype: 3.1.0
-    dev: false
+    dev: true
 
   /electron-to-chromium/1.4.225:
     resolution: {integrity: sha512-ICHvGaCIQR3P88uK8aRtx8gmejbVJyC6bB4LEC3anzBrIzdzC7aiZHY4iFfXhN4st6I7lMO0x4sgBHf/7kBvRw==}
@@ -769,7 +775,7 @@ packages:
   /events/3.3.0:
     resolution: {integrity: sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==}
     engines: {node: '>=0.8.x'}
-    dev: false
+    dev: true
 
   /fast-glob/3.2.11:
     resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
@@ -980,7 +986,7 @@ packages:
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-    dev: false
+    dev: true
 
   /lru-cache/6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
@@ -1318,7 +1324,7 @@ packages:
 
   /regenerator-runtime/0.13.9:
     resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
-    dev: false
+    dev: true
 
   /regexparam/2.0.1:
     resolution: {integrity: sha512-zRgSaYemnNYxUv+/5SeoHI0eJIgTL/A2pUtXUPLHQxUldagouJ9p+K6IbIZ/JiQuCEv2E2B1O11SjVQy3aMCkw==}
@@ -1494,7 +1500,7 @@ packages:
     resolution: {integrity: sha512-X/ZJIeMnywA9z0cl4Kd2P8IbJyjq85F3j6CyiAn+iavFejbqILL4BcV55H5A2bDdnSIcRo23S/WGHSY17/+Otg==}
     dependencies:
       agnostic-draggable-bug-fixed: 1.0.13
-    dev: false
+    dev: true
 
   /svelte-check/2.8.1_vylzxgme5yisu3bsyvcau4hjtq:
     resolution: {integrity: sha512-cibyY1sgt3ONIDnQbSgV2X9AJFhwEslRHNo95lijrYfPzVEvTvbmL2ohsUyqB5L7j1GhLXtQbjCJ4lZZ/fwbeQ==}
@@ -1587,7 +1593,7 @@ packages:
 
   /svelte-touch-to-mouse/1.0.0:
     resolution: {integrity: sha512-iGzBIOVUMdGapgfa4fkjIh+2ViEMhRTJ65izabdPyPQgX5NZb2ZpYXTuitWjQUzXtH31uYmpsH+TB2AoEv9WhA==}
-    dev: false
+    dev: true
 
   /svelte/3.49.0:
     resolution: {integrity: sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==}
