@@ -14,16 +14,16 @@
 	<Layer width={100} height={100} style="top:20px; left:200px;">Web 3.0</Layer>
 	<Layer width={100} height={100} style="top:200px; left:50px;">
 		<img
-			src="https://images.pexels.com/photos/12663061/pexels-photo-12663061.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+			src="/img/pexels-photo-12663061.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
 			alt=""
+			style="width:100%; height:100%;"
 		/>
 	</Layer>
 	<Layer width={100} height={100} style="top:200px; left:200px;">
 		<img
-			src="https://images.pexels.com/photos/12785681/pexels-photo-12785681.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+			src="/img/pexels-photo-12785681.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
 			alt=""
-			width="100%"
-			height="100%"
+			style="width:100%; height:100%;"
 		/>
 	</Layer>
 </div>
