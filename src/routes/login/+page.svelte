@@ -2,7 +2,7 @@
 	class="container flex flex-col place-items-stretch justify-center bg-black  text-white mx-auto w-1/3 border-4 rounded-xl"
 >
 	<div class="font-bold text-3xl border-bg from-black pt-14  flex font-serif  text-pink-500">
-		| Login
+		| Login1
 	</div>
 	<div class="flex flex-col  bg-black  text-white text py-10 my-3">
 		<input
