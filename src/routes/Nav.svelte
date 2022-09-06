@@ -7,14 +7,14 @@
 	<a href="/logout">Logout</a>
 </div> -->
 <nav>
-	<div class=" px-28 flex">
-		<div class="px-3 py-3 font-bold flex cursor-pointer text-2xl">Voxo</div>
-		<div class="px-3 py-5 flex cursor-pointer">HOME+</div>
-		<div class="px-3 py-5 flex cursor-pointer ">SHOP+</div>
-		<div class="px-3 py-5 flex cursor-pointer ">PRODUCT+</div>
-		<div class="px-3 py-5 flex cursor-pointer">VOXO PLUS+</div>
-		<div class="px-3 py-5 flex cursor-pointer ">PAGES+</div>
-		<div class="px-3 py-5 flex  cursor-pointer">BLOCK+</div>
+	<div class="px-28 py-9 flex flex-cols-7 space-x-11">
+		<div class=" font-extrabold flex cursor-pointer text-3xl">Voxo</div>
+		<div class=" py-3 cursor-pointer font-sans font-bold text-sm">HOME ˅</div>
+		<div class=" py-3 cursor-pointer font-sans font-bold text-sm ">SHOP ˅</div>
+		<div class=" py-3 cursor-pointer font-sans font-bold text-sm">PRODUCT ˅</div>
+		<div class=" py-3 cursor-pointer font-sans font-bold text-sm">VOXO PLUS ˅</div>
+		<div class=" py-3 cursor-pointer font-sans font-bold text-sm">PAGES ˅</div>
+		<div class=" py-3 cursor-pointer font-sans font-bold text-sm">BLOG ˅</div>
 		<div />
 	</div>
 </nav>
