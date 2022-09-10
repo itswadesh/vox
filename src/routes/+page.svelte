@@ -81,9 +81,16 @@
 	<h1 class="text-3xl font-bold font-sans">New Offers</h1>
 	<p class="text-[#8c8c8c] font-semibold">Just For You</p>
 </div>
-<div class="container">
+<div class="container flex">
 	<div>
 		<img src="/4(4).jpg" alt="" />
+	</div>
+	<div>
+		<img src="/5(1).jpg" alt="" />
+		<div class=" flex">
+			<img src="/6.jpg" alt="" />
+			<img src="/7(1).jpg" alt="" />
+		</div>
 	</div>
 </div>
 <div class="flex flex-col items-center justify-center my-20 space-y-1">
@@ -153,4 +160,17 @@
 			</div>
 		</div>
 	</div>
+</div>
+<div class="ml-56 my-20">
+	<img src="/8(2).jpg" alt="" />
+</div>
+<div class="flex flex-col items-center justify-center my-20 space-y-1">
+	<h1 class="text-3xl font-bold font-sans">Instagram Shop</h1>
+	<p class="text-[#8c8c8c] font-semibold">New Collection</p>
+</div>
+<div class="container flex space-x-6 items-center justify-center ml-44">
+	<img src="/2(5).jpg" alt="" />
+	<img src="/3(4).jpg" alt="" />
+	<img src="/4(5).jpg" alt="" />
+	<img src="/5(4).jpg" alt="" />
 </div>
