@@ -62,7 +62,7 @@
 <div class="container flex flex-row space-x-6 ">
 	<div class="bg-[#e22454] flex-col w-80 space-y-2 p-5 ml-4">
 		<h1 class="text-white text-3xl font-sans font-bold">Our Top</h1>
-		<h2 class="text-white text-base  font-sans font-semibold ">CATEGORIES</h2>
+		<h2 class="text-white text-base tracking-[1rem] font-sans font-semibold ">CATEGORIES</h2>
 	</div>
 	<div>
 		<img src="/1(6).jpg" alt="" />
