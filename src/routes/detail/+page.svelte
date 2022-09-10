@@ -55,10 +55,14 @@
 				</div>
 			</div>
 			<div class=" font-bold py-3 text-2xl ">BRAND NEW T-SHIRT</div>
-            <div class="flex flex-row py-1">
-			<h2 class="bg-gray-400 w-32 font-sans text-white font-bold flex items-center justify-center ">#1 BestSeller</h2>
-			<h2 class="px-3">In Fashion</h2>
-		</div>
+			<div class="flex flex-row py-1">
+				<h2
+					class="bg-gray-400 w-32 font-sans text-white font-bold flex items-center justify-center "
+				>
+					#1 BestSeller
+				</h2>
+				<h2 class="px-3">In Fashion</h2>
+			</div>
 			<h2 class="text-2xl font-semibold">$32.96</h2>
 			<div class="flex flex-row gap-3 ">
 				<h2 class="pt-8">color:</h2>
@@ -84,7 +88,6 @@
 				<h2 class="w-10 h-10 flex  items-center justify-center bg-slate-200">m</h2>
 				<h2 class="w-10 h-10 flex  items-center justify-center bg-slate-200">l</h2>
 				<h2 class="w-10 h-10 flex  items-center justify-center bg-slate-200">xl</h2>
-					
 			</div>
 			<div class="bg-gray-100 flex px-10 py-4 my-6">Free shipping for orders above $500 USD</div>
 		</div>
@@ -138,46 +141,36 @@
 			</p>
 		</div>
 		<p class="font-bold flex px-36 text-3xl py-10">Customers Also Bought These</p>
-		<div class="grid gap-6 grid-cols-4  px-36 ">
-			<div>
-				<img
-					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/product/back/1.jpg"
-					alt=""
-				/>
-				<div class=" flex justify-start px-1 py-5">
-					<div class="text-lg font-bold">Slim Fit Plastic Coat</div>
-					<div class="text-lg font-bold text-pink-700">$78.00</div>
+
+		<div class="container ml-60 flex">
+			<div class="flex flex-row space-x-6 ">
+				<div>
+					<img src="/1(1).jpg" alt="" />
+					<div class=" flex space-x-32 py-5">
+						<div class="text-lg font-bold text-[#232323]">Slim Fit Plastic...</div>
+						<div class="text-lg font-bold  text-pink-700">$78.00</div>
+					</div>
 				</div>
-			</div>
-			<div>
-				<img
-					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/product/back/2.jpg"
-					alt=""
-				/>
-				<div class=" flex justify-start px-1 py-5">
-					<div class="text-lg font-bold">Blue Leather Coat</div>
-					<div class="text-lg font-bold text-pink-700">$60.00</div>
+				<div>
+					<img src="/2(2).jpg" alt="" />
+					<div class=" flex  space-x-32  py-5">
+						<div class="text-lg font-bold text-[#232323]">Blue Leather...</div>
+						<div class="text-lg font-bold text-pink-700">$60.00</div>
+					</div>
 				</div>
-			</div>
-			<div>
-				<img
-					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/product/back/3.jpg"
-					alt=""
-				/>
-				<div class=" flex justify-start px-1 py-5">
-					<div class="text-lg font-bold">Military Ball Night Coat</div>
-					<div class="text-lg font-bold text-pink-700">$85.00</div>
+				<div>
+					<img src="/3(1).jpg" alt="" />
+					<div class=" flex space-x-24 py-5">
+						<div class="text-lg font-bold text-[#232323]">Military Ball Night...</div>
+						<div class="text-lg font-bold  text-pink-700">$85.00</div>
+					</div>
 				</div>
-			</div>
-			<div>
-				<img
-					class="hover:float-none"
-					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/product/back/4.jpg"
-					alt=""
-				/>
-				<div class=" flex justify-start px-1 py-5">
-					<div class="text-lg font-bold">Full Sleeve Yellow Coat</div>
-					<div class="text-lg font-bold text-pink-700">$69.00</div>
+				<div>
+					<img src="/4(1).jpg" alt="" />
+					<div class=" flex space-x-28 py-5">
+						<div class="text-lg font-sans font-bold text-[#232323]">Full Sleeve Yellow...</div>
+						<div class="text-lg font-bold  text-pink-700">$69.00</div>
+					</div>
 				</div>
 			</div>
 		</div>
