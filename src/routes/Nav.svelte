@@ -5,6 +5,7 @@
 	<a href="/detail">Detail</a>
 	<a href="/login">Login</a>
 	<a href="/logout">Logout</a>
+	gggg
 </div> -->
 <nav class="flex justify-between">
 	<div class="px-28 py-9 flex flex-cols-7 space-x-11 ">
