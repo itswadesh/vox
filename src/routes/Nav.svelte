@@ -16,13 +16,13 @@
 		<div class=" py-3 cursor-pointer font-sans font-bold text-sm">PAGES ˅</div>
 		<div class=" py-3 cursor-pointer font-sans font-bold text-sm">BLOG ˅</div>
 	</div>
-	<div class="flex space-x-8  mt-11">
-		<img class="w-7 h-6" src="/search.svg" alt="" />
-		<img class="w-7 h-6" src="/Account.svg" alt="" />
-		<img class="w-7 h-6" src="/Likes.svg" alt="" />
+	<div class="flex space-x-8 ml-32 mt-11">
+		<img class="w-7 h-6 cursor-pointer" src="/search.svg" alt="" />
+		<img class="w-7 h-6 cursor-pointer" src="/Account.svg" alt="" />
+		<img class="w-7 h-6 cursor-pointer" src="/Likes.svg" alt="" />
 	</div>
 	<div
-		class="flex mt-9 bg-[#e22454] text-white inline-block w-32 h-12 p-2 items-center font-semibold font-sans rounded-sm"
+		class="flex mt-9 mr-28 bg-[#e22454] text-white  w-32 h-12 p-2 items-center font-semibold font-sans rounded-sm"
 	>
 		<img class=" w-7 h-6" src="/cart.svg" alt="" />$5686.25
 	</div>
