@@ -103,7 +103,7 @@
 			man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a
 			pain that produces no resultant pleasure.
 		</p>
-		<div class="absolute">
+		<div class="">
 			<img
 				class="w-40 md:w-60 lg:w-2/5 px-20 float-right object-contain md:object-scale-down"
 				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/slider/1.jpg"
