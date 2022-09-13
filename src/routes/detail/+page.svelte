@@ -4,8 +4,8 @@
 		/ Product 4 Images
 	</div>
 </div>
-<div class="container mx-auto">
-	<div class="container float-left flex  md:mx-auto px-20 py-14 mx-4 mt-4">
+<div class="container mx-auto aspect-square">
+	<div class="container float-left  flex  md:mx-auto px-20 py-14  mt-4">
 		<div class="grid gap-4 grid-cols-2 grid-rows-2 ">
 			<div>
 				<img
@@ -100,11 +100,19 @@
 			man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a
 			pain that produces no resultant pleasure.
 		</p>
+		<h2 class=" flex text-gray-500 px-20    ">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, autem nemo? Tempora vitae
+			assumenda laudantium unde magni, soluta repudiandae quam, neque voluptate deleniti
+			consequatur laboriosam veritatis? Tempore dolor molestias voluptatum! Minima possimus,
+			pariatur sed, quasi provident dolorum unde molestias, assumenda consequuntur odit magni
+			blanditiis obcaecati? Ea corporis odit dolorem fuga, fugiat soluta consequuntur magni.
+		</h2>
 		<div class="absolute">
 			<img
-				class="w-40 md:w-60 lg:w-2/5 px-20 float-right object-contain md:object-scale-down"
+				class="w-40 md:w-60 lg:w-2/5 px-20  float-right object-contain md:object-scale-down"
 				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/slider/1.jpg"
 				alt=""
+				
 			/>
 		</div>
 		<p class=" flex text-xl py-3 px-20">Fabric:</p>
@@ -117,18 +125,18 @@
 		</p>
 		<div>
 			<img
-				class=" absolute  w-40 md:w-60 lg:w-2/5 px-20 flex py-20 hover:float-left object-contain md:object-scale-down"
+				class=" absolute  w-40 md:w-60 lg:w-2/5 px-20 flex float-left object-contain md:object-scale-down"
 				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/slider/2.jpg"
 				alt=""
 			/>
-			<h2 class=" flex text-gray-500  py-20 pl-96 ">
+			<h2 class=" flex text-gray-500  py-20 px-20  pl-96">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, autem nemo? Tempora vitae
 				assumenda laudantium unde magni, soluta repudiandae quam, neque voluptate deleniti
 				consequatur laboriosam veritatis? Tempore dolor molestias voluptatum! Minima possimus,
 				pariatur sed, quasi provident dolorum unde molestias, assumenda consequuntur odit magni
 				blanditiis obcaecati? Ea corporis odit dolorem fuga, fugiat soluta consequuntur magni.
 			</h2>
-			<p class="flex   text-gray-500 pl-96  ">
+			<p class="flex   text-gray-500 px-20  ">
 				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio repellat numquam perspiciatis
 				eum quis ab, sed dicta tenetur fugit culpa, aut distinctio deserunt quisquam ipsam
 				reprehenderit iure? Adipisci, optio enim? Voluptates voluptatum neque id ad commodi quisquam
