@@ -1,8 +1,35 @@
-<div class="container">
-	<div class="left" />
-	<div class="right" />
+<div class="slider flex flex-row bg-[#232323]">
+    <div class="left w-[28rem]">
+        <h1 class="text-white text-4xl font-bold font-sans text-center justify-center py-10 px-12  w-72 ">Ram Ham Colorblock T-shirt</h1>
+        <p class="text-slate-100 font-sans font-normal px-12 w-80">The International hoddies with excellent durable fabric, not to heavy but simply PERFECT for
+            Indian summer
+        </p>
+        <div class="flex">
+           <p class="text-white text-3xl font-sans font-bold my-10 mx-12">$49.55</p>
+           <p class="text-pink-600 py-11 text-2xl font-sans font-bold -mx-10">$49.55</p>
+        </div>
+        <p class="text-white px-5 bg-zinc-900 w-24 h-8 mx-12 font-semibold">Size ˅</p>
+        <p class="text-white px-5 bg-zinc-900 w-24 h-8 mx-12 font-semibold my-1">color ˅</p>
+        <p class="text-white px-5 bg-zinc-900 w-24 h-8 mx-12 font-semibold">Qty ˅</p>
+        <div class="flex flex-row mx-12 my-5 space-x-3">
+            <p class="bg-white w-32 h-10 font-extrabold font-mono text-sm text-center py-2 hover:bg-[#232323] hover:text-white hover:border-2 hover:border-white">Add to Cart</p>
+            <p class="bg-pink-600 w-8 h-10 "><img class="px-1 py-2" src="/Likes.svg" alt=""></p>
+        </div>
+        <div class="flex  mx-12 space-x-1">
+            <p class="text-white">Share with</p>
+            <div class="flex space-x-2 bg-zinc-900">
+                <p>fb</p>
+                <p>G</p>
+                <p>twit</p>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <img src="/1(3).jpg" alt="">
+    </div>
 </div>
-<div class="container flex space-x-6 items-center justify-center ml-44">
+
+<div class="container flex space-x-6 items-center justify-center py-12 ml-44">
 	<img src="/1(4).jpg" alt="" />
 	<img src="/2(1).jpg" alt="" />
 	<img src="/3.jpg" alt="" />
