@@ -5,39 +5,34 @@
 	</div>
 </div>
 <div class="container mx-auto">
-	<div class="container float-left flex  md:mx-auto px-20 py-14 mx-4 mt-4">
-		<div class="grid gap-4 grid-cols-2 grid-rows-2 ">
-			<div>
-				<img
-					class="w-24 md:w-44 lg:w-64 object-contain md:object-scale-down"
-					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/1.jpg"
-					alt=""
-				/>
-			</div>
-			<div>
-				<img
-					class="w-24 md:w-44 lg:w-64 object-contain md:object-scale-down"
-					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/2.jpg"
-					alt=""
-				/>
-			</div>
-			<div>
-				<img
-					class="w-24 md:w-44 lg:w-64 object-contain md:object-scale-down"
-					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/3.jpg"
-					alt=""
-				/>
-			</div>
-			<div>
-				<img
-					class="w-24 md:w-44 lg:w-64 object-contain md:object-scale-down"
-					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/4.jpg"
-					alt=""
-				/>
-			</div>
+	<div class="flex  md:mx-auto pl-10 py-14 mt-4">
+		<div class="grid gap-4 grid-cols-2 ">
+			<img
+				class="w-[370.5px] object-contain md:object-scale-down"
+				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/1.jpg"
+				alt=""
+			/>
+
+			<img
+				class="w-[370.5px] object-contain md:object-scale-down"
+				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/2.jpg"
+				alt=""
+			/>
+
+			<img
+				class=" w-[370.5px] object-contain md:object-scale-down"
+				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/3.jpg"
+				alt=""
+			/>
+
+			<img
+				class="w-[370.5px] object-contain md:object-scale-down"
+				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/4.jpg"
+				alt=""
+			/>
 		</div>
-		<div class="container float-right px-6 ">
-			<div class=" bg-slate-200 w-96  justify-self-start flex  ">
+		<div class="px-6 ">
+			<div class=" bg-[#eff2f7] w-[546px]  justify-self-start flex  ">
 				<div class="flex mr-4 items-center">
 					<img
 						src="http://themes.pixelstrap.com/voxo/front-end/assets/images/gif/fire.gif"
@@ -55,16 +50,16 @@
 				</div>
 			</div>
 			<div class=" font-bold py-3 text-2xl ">BRAND NEW T-SHIRT</div>
-			<div class="flex flex-row py-1">
+			<div class="flex flex-row my-3">
 				<h2
-					class="bg-gray-400 w-32 font-sans text-white font-bold flex items-center justify-center "
+					class="bg-[#929292] w-32 font-sans text-white font-bold flex items-center justify-center "
 				>
 					#1 BestSeller
 				</h2>
 				<h2 class="px-3">In Fashion</h2>
 			</div>
 			<h2 class="text-2xl font-semibold">$32.96</h2>
-			<div class="flex flex-row gap-3 ">
+			<div class="flex flex-row gap-3 my-6">
 				<h2 class="pt-8">color:</h2>
 				<img
 					class="w-5 md:w-10 lg:w-16"
@@ -89,13 +84,13 @@
 				<h2 class="w-10 h-10 flex  items-center justify-center bg-slate-200">l</h2>
 				<h2 class="w-10 h-10 flex  items-center justify-center bg-slate-200">xl</h2>
 			</div>
-			<div class="bg-gray-100 flex px-10 py-4 my-6">Free shipping for orders above $500 USD</div>
+			<div class="bg-[#eff2f7] flex px-10 py-4 my-6">Free shipping for orders above $500 USD</div>
 		</div>
 	</div>
 
-	<div class="container ">
-		<p class=" flex text-xl px-20">Give You A Complete Account Of The System</p>
-		<p class="flex  text-gray-500 py-2 px-20">
+	<div class="container pl-10 ">
+		<p class=" flex text-xl ">Give You A Complete Account Of The System</p>
+		<p class="flex  text-gray-500 py-2 ">
 			Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it
 			is pain, but because occasionally circumstances occur in which toil and pain can procure him
 			some great pleasure. To take a trivial example, which of us ever undertakes laborious physical
@@ -103,46 +98,60 @@
 			man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a
 			pain that produces no resultant pleasure.
 		</p>
-		<div class="">
+
+		<div class="flex flex-row ">
+			<div class="flex flex-col py-3">
+				<p class="flex  text-gray-500 py-2 ">
+					Art silk is manufactured by synthetic fibres like rayon. It's light in weight and is soft
+					on the skin for comfort in summers.Art silk is manufactured by synthetic fibres like
+					rayon. It's light in weight and is soft on the skin for comfort in summers. Lorem Ipsum is
+					simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+					industry's standard dummy text ever since the 1500s.
+				</p>
+				<p class=" flex text-xl py-3   ">Fabric:</p>
+				<p class=" flex text-gray-500   ">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, autem nemo? Tempora vitae
+					assumenda laudantium unde magni, soluta repudiandae quam, neque voluptate deleniti
+					consequatur laboriosam veritatis? Tempore dolor molestias voluptatum! Minima possimus,
+					pariatur sed, quasi provident dolorum unde molestias, assumenda consequuntur odit magni
+					blanditiis obcaecati? Ea corporis odit dolorem fuga, fugiat soluta consequuntur magni.
+				</p>
+			</div>
 			<img
-				class="w-40 md:w-60 lg:w-2/5 px-20 float-right object-contain md:object-scale-down"
+				class="w-40 md:w-60 lg:w-1/3  rounded-md shadow-md object-contain md:object-scale-down "
 				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/slider/1.jpg"
 				alt=""
 			/>
 		</div>
-		<p class=" flex text-xl py-3 px-20">Fabric:</p>
-		<p class="flex  text-gray-500 py-2 px-20 w-3/4">
-			Art silk is manufactured by synthetic fibres like rayon. It's light in weight and is soft on
-			the skin for comfort in summers.Art silk is manufactured by synthetic fibres like rayon. It's
-			light in weight and is soft on the skin for comfort in summers. Lorem Ipsum is simply dummy
-			text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-			dummy text ever since the 1500s.
-		</p>
-		<div>
+
+		<div class="flex flex-row py-3 ">
 			<img
-				class=" absolute  w-40 md:w-60 lg:w-2/5 px-20 flex py-20 hover:float-left object-contain md:object-scale-down"
+				class="  w-40 md:w-60 lg:w-1/3  rounded-md shadow-md   object-contain md:object-scale-down"
 				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/slider/2.jpg"
 				alt=""
 			/>
-			<h2 class=" flex text-gray-500  py-20 pl-96 ">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, autem nemo? Tempora vitae
-				assumenda laudantium unde magni, soluta repudiandae quam, neque voluptate deleniti
-				consequatur laboriosam veritatis? Tempore dolor molestias voluptatum! Minima possimus,
-				pariatur sed, quasi provident dolorum unde molestias, assumenda consequuntur odit magni
-				blanditiis obcaecati? Ea corporis odit dolorem fuga, fugiat soluta consequuntur magni.
-			</h2>
-			<p class="flex   text-gray-500 pl-96  ">
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio repellat numquam perspiciatis
-				eum quis ab, sed dicta tenetur fugit culpa, aut distinctio deserunt quisquam ipsam
-				reprehenderit iure? Adipisci, optio enim? Voluptates voluptatum neque id ad commodi quisquam
-				dolorem vitae inventore quasi! Officiis facere, iusto tempore atque magnam voluptas.
-				Architecto laboriosam deleniti hic veritatis nesciunt. Aut officia quasi inventore et.
-				Debitis.
-			</p>
+			<div class="flex flex-col py-10 pl-5">
+				<p class=" flex text-gray-500   ">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, autem nemo? Tempora vitae
+					assumenda laudantium unde magni, soluta repudiandae quam, neque voluptate deleniti
+					consequatur laboriosam veritatis? Tempore dolor molestias voluptatum! Minima possimus,
+					pariatur sed, quasi provident dolorum unde molestias, assumenda consequuntur odit magni
+					blanditiis obcaecati? Ea corporis odit dolorem fuga, fugiat soluta consequuntur magni.
+				</p>
+
+				<p class="flex   text-gray-500 py-6 ">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio repellat numquam
+					perspiciatis eum quis ab, sed dicta tenetur fugit culpa, aut distinctio deserunt quisquam
+					ipsam reprehenderit iure? Adipisci, optio enim? Voluptates voluptatum neque id ad commodi
+					quisquam dolorem vitae inventore quasi! Officiis facere, iusto tempore atque magnam
+					voluptas. Architecto laboriosam deleniti hic veritatis nesciunt. Aut officia quasi
+					inventore et. Debitis.
+				</p>
+			</div>
 		</div>
 		<p class="font-bold flex px-36 text-3xl py-10">Customers Also Bought These</p>
 
-		<div class="container ml-60 flex">
+		<div class="container ml-20 flex">
 			<div class="flex flex-row space-x-6 ">
 				<div>
 					<img src="/1(1).jpg" alt="" />
