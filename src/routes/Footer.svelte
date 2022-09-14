@@ -63,7 +63,7 @@
 					id=""
 					class="bg-gray-300 text-brown-600 w-80 h-12 text-left pl-6"
 					placeholder="Your email address"
-				/><button class="bg-pink-600 w-10 h-12">[]</button>
+				/><button class="bg-rose-600 text-white w-12 h-12">➙</button>
 			</div>
 			<p class="py-4 text-gray-500">Keep up to date with our latest news and special offers.</p>
 		</div>

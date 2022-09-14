@@ -1,72 +1,39 @@
-<div class="bg-purple-50 py-16 h-48">
+<div class="bg-[#eff2f7] py-16 h-48">
 	<div class="px-40 flex items-center justify-center font-bold text-xl ">Product 4 Images</div>
 	<div class="text-gray-500 py-2 px-40  flex items-center justify-center text-sm">
+		<img  class=" w-4 h-4" src="https://cdn-icons-png.flaticon.com/512/553/553416.png" alt="">
 		/ Product 4 Images
 	</div>
 </div>
-<<<<<<< HEAD
-<div class="container mx-auto aspect-square">
-	<div class="container float-left  flex  md:mx-auto px-20 py-14  mt-4">
-		<div class="grid gap-4 grid-cols-2 grid-rows-2 ">
-			<div>
-				<img
-					class="w-24 md:w-44 lg:w-64 object-contain md:object-scale-down"
-					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/1.jpg"
-					alt=""
-				/>
-			</div>
-			<div>
-				<img
-					class="w-24 md:w-44 lg:w-64 object-contain md:object-scale-down"
-					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/2.jpg"
-					alt=""
-				/>
-			</div>
-			<div>
-				<img
-					class="w-24 md:w-44 lg:w-64 object-contain md:object-scale-down"
-					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/3.jpg"
-					alt=""
-				/>
-			</div>
-			<div>
-				<img
-					class="w-24 md:w-44 lg:w-64 object-contain md:object-scale-down"
-					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/4.jpg"
-					alt=""
-				/>
-			</div>
-=======
-<div class="container mx-auto">
+<div class="container mx-auto pl-10 pr-20">
 	<div class="flex  md:mx-auto pl-10 py-14 mt-4">
 		<div class="grid gap-4 grid-cols-2 ">
 			<img
-				class="w-[370.5px] object-contain md:object-scale-down"
+				class="w-[260px]"
 				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/1.jpg"
 				alt=""
 			/>
 
 			<img
-				class="w-[370.5px] object-contain md:object-scale-down"
+				class="w-[260px] "
 				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/2.jpg"
 				alt=""
 			/>
 
 			<img
-				class=" w-[370.5px] object-contain md:object-scale-down"
+				class=" w-[260px]"
 				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/3.jpg"
 				alt=""
 			/>
 
 			<img
-				class="w-[370.5px] object-contain md:object-scale-down"
+				class="w-[260px]"
 				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/4.jpg"
 				alt=""
 			/>
->>>>>>> ac00c9d42be37d956e2ffadc72c86e61081b3cae
 		</div>
 		<div class="px-6 ">
-			<div class=" bg-[#eff2f7] w-[546px]  justify-self-start flex  ">
+			<div class=" bg-[#eff2f7] w-[546px]  justify-self-start flex h-10 ">
 				<div class="flex mr-4 items-center">
 					<img
 						src="http://themes.pixelstrap.com/voxo/front-end/assets/images/gif/fire.gif"
@@ -96,33 +63,79 @@
 			<div class="flex flex-row gap-3 my-6">
 				<h2 class="pt-8">color:</h2>
 				<img
-					class="w-5 md:w-10 lg:w-16"
+					class="w-[60px] h-[90px]"
 					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/product/front/5.jpg"
 					alt=""
 				/>
 				<img
-					class="w-5 md:w-10 lg:w-16"
+					class="w-[60px] h-[90px]"
 					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/product/front/6.jpg"
 					alt=""
 				/>
 				<img
-					class="w-5 md:w-10 lg:w-16"
+					class="w-[60px] h-[90px]"
 					src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/product/front/7.jpg"
 					alt=""
 				/>
 			</div>
-			<h2 class="font-semibold ">Select Size</h2>
-			<div class="flex flex-row gap-5 py-4  ">
-				<h2 class="w-10 h-10 flex  items-center justify-center  bg-slate-200">s</h2>
-				<h2 class="w-10 h-10 flex  items-center justify-center bg-slate-200">m</h2>
-				<h2 class="w-10 h-10 flex  items-center justify-center bg-slate-200">l</h2>
-				<h2 class="w-10 h-10 flex  items-center justify-center bg-slate-200">xl</h2>
-			</div>
-			<div class="bg-[#eff2f7] flex px-10 py-4 my-6">Free shipping for orders above $500 USD</div>
+			<hr />
+			<div class="flex py-4">
+			<h2 class="font-bold  ">Select Size</h2>
+			<h2 class="font-bold pl-96 text-[#e22454]"> Size Chart</h2>
 		</div>
+			<div class="flex flex-row gap-5 py-4   ">
+				<h2 class="w-10 h-9 flex rounded-md items-center justify-center  bg-slate-200">s</h2>
+				<h2 class="w-10 h-9 flex rounded-md items-center justify-center bg-slate-200">m</h2>
+				<h2 class="w-10 h-9 flex rounded-md items-center justify-center bg-slate-200">l</h2>
+				<h2 class="w-10 h-9 flex rounded-md items-center justify-center bg-slate-200">xl</h2>
+			</div>
+			<h2 class="font-bold  py-2 ">Quantity</h2>
+			<div class="flex gap-2">
+				<div class="flex mt-9  bg-[#e22454] text-white  w-[175px] h-12 pl-8 items-center font-bold font-sans rounded-sm">
+					<img class=" w-7 h-6" src="https://cdn-icons-png.flaticon.com/512/3502/3502704.png" alt=""/>Wishlist
+				 </div>
+			<div
+				class="flex mt-9  bg-[#e22454] text-white  w-[175px] h-12 pl-5 items-center font-bold font-sans rounded-sm "
+			>
+				<img class=" w-7 h-6" src="/cart.svg" alt="" />Add To Cart
+			</div>
+			
+		</div>
+			<div class="bg-[#eff2f7] flex px-10 py-4 my-6 pl-3">
+				<img class=" w-7 h-6" src="https://cdn-icons-png.flaticon.com/512/870/870181.png" alt=""> Free shipping for orders above $500 USD</div>
+				<hr>
+				<div class="py-4 font-medium text-base" >Hurry Up! Left 10 In Stock</div>
+			
+				<div class="text-gray-500 py-2">
+					Order in the next to get
+					
+						340 Days : 3 Hour : 58 Min : 2 Sec 
+					
+					</div>
+					<hr >
+					<h2 class="font-bold py-3 ">Share It</h2>
+					<div class="flex gap-10">
+						
+						<img class=" w-[15px] h-[15px]" src="https://cdn-icons-png.flaticon.com/512/2111/2111392.png" alt="">
+						<img class=" w-[15px] h-[15px]" src="https://cdn-icons-png.flaticon.com/512/2111/2111483.png" alt="">
+						<img class=" w-[15px] h-[15px]" src="https://cdn-icons-png.flaticon.com/512/2111/2111738.png" alt="">
+						<img class=" w-[15px] h-[15px]" src="https://cdn-icons-png.flaticon.com/512/2111/2111491.png" alt="">
+						<img class=" w-[15px] h-[15px]" src="https://cdn-icons-png.flaticon.com/512/1176/1176875.png" alt="">	
+					</div>
+		</div>
+		
 	</div>
-
-	<div class="container pl-10 ">
+	
+<div class="flex flex-row gap-12 pl-10">
+	<h1 class=" text-2xl">Description</h1>
+	<h1  class=" text-2xl">Specifications</h1>
+	<h1  class=" text-2xl">Sizing Guide</h1>
+	<h1  class=" text-2xl">Q & A</h1>
+	<h1  class=" text-2xl">Review</h1>
+</div>
+<hr class="my-4 ">
+		
+	<div class="container pl-10 py-4 ">
 		<p class=" flex text-xl ">Give You A Complete Account Of The System</p>
 		<p class="flex  text-gray-500 py-2 ">
 			Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it
@@ -132,18 +145,6 @@
 			man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a
 			pain that produces no resultant pleasure.
 		</p>
-<<<<<<< HEAD
-		<h2 class=" flex text-gray-500 px-20    ">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, autem nemo? Tempora vitae
-			assumenda laudantium unde magni, soluta repudiandae quam, neque voluptate deleniti
-			consequatur laboriosam veritatis? Tempore dolor molestias voluptatum! Minima possimus,
-			pariatur sed, quasi provident dolorum unde molestias, assumenda consequuntur odit magni
-			blanditiis obcaecati? Ea corporis odit dolorem fuga, fugiat soluta consequuntur magni.
-		</h2>
-		<div class="absolute">
-			<img
-				class="w-40 md:w-60 lg:w-2/5 px-20  float-right object-contain md:object-scale-down"
-=======
 
 		<div class="flex flex-row ">
 			<div class="flex flex-col py-3">
@@ -164,42 +165,19 @@
 				</p>
 			</div>
 			<img
-				class="w-40 md:w-60 lg:w-1/3  rounded-md shadow-md object-contain md:object-scale-down "
->>>>>>> ac00c9d42be37d956e2ffadc72c86e61081b3cae
+				class="  w-[350px]   rounded-md  object-contain md:object-scale-down  "
 				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/slider/1.jpg"
 				alt=""
-				
 			/>
 		</div>
 
-		<div class="flex flex-row py-3 ">
+		<div class="flex flex-row  ">
 			<img
-<<<<<<< HEAD
-				class=" absolute  w-40 md:w-60 lg:w-2/5 px-20 flex float-left object-contain md:object-scale-down"
+				class=" w-[350px]  rounded-md   object-contain md:object-scale-down"
 				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/slider/2.jpg"
 				alt=""
 			/>
-			<h2 class=" flex text-gray-500  py-20 px-20  pl-96">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, autem nemo? Tempora vitae
-				assumenda laudantium unde magni, soluta repudiandae quam, neque voluptate deleniti
-				consequatur laboriosam veritatis? Tempore dolor molestias voluptatum! Minima possimus,
-				pariatur sed, quasi provident dolorum unde molestias, assumenda consequuntur odit magni
-				blanditiis obcaecati? Ea corporis odit dolorem fuga, fugiat soluta consequuntur magni.
-			</h2>
-			<p class="flex   text-gray-500 px-20  ">
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio repellat numquam perspiciatis
-				eum quis ab, sed dicta tenetur fugit culpa, aut distinctio deserunt quisquam ipsam
-				reprehenderit iure? Adipisci, optio enim? Voluptates voluptatum neque id ad commodi quisquam
-				dolorem vitae inventore quasi! Officiis facere, iusto tempore atque magnam voluptas.
-				Architecto laboriosam deleniti hic veritatis nesciunt. Aut officia quasi inventore et.
-				Debitis.
-			</p>
-=======
-				class="  w-40 md:w-60 lg:w-1/3  rounded-md shadow-md   object-contain md:object-scale-down"
-				src="http://themes.pixelstrap.com/voxo/front-end/assets/images/fashion/slider/2.jpg"
-				alt=""
-			/>
-			<div class="flex flex-col py-10 pl-5">
+			<div class="flex flex-col py-5 pl-5">
 				<p class=" flex text-gray-500   ">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, autem nemo? Tempora vitae
 					assumenda laudantium unde magni, soluta repudiandae quam, neque voluptate deleniti
@@ -217,11 +195,10 @@
 					inventore et. Debitis.
 				</p>
 			</div>
->>>>>>> ac00c9d42be37d956e2ffadc72c86e61081b3cae
 		</div>
 		<p class="font-bold flex px-36 text-3xl py-10">Customers Also Bought These</p>
 
-		<div class="container ml-20 flex">
+		<div class="container flex">
 			<div class="flex flex-row space-x-6 ">
 				<div>
 					<img src="/1(1).jpg" alt="" />
@@ -254,21 +231,20 @@
 			</div>
 		</div>
 	</div>
-	<div class="mx-36 my-32" />
-	<div class=" container float-left py-3 bg-blue-50 h-52  flex flex-col cursor-text ">
-		<h3 class=" text-3xl font-semibold px-12 py-14  ">Subscribe Our News</h3>
-		<p class=" text-gray-500 flex px-12 -my-12">
-			Subscribe and receive our newsletters to follow the news about our fresh and fantastic
-			Products.
-		</p>
-		<div class="flex items-end justify-end -my-1 px-16">
-			<input
-				type="email"
-				name=""
-				id=""
-				class="bg-white text-brown-600 w-80 h-12 text-left pl-6"
-				placeholder="Your Email Address"
-			/><button class="bg-rose-600 text-white w-24 h-12">Button</button>
-		</div>
+</div>
+<div />
+<div class=" py-3 bg-[#eff3f7] h-52  flex flex-col cursor-text w-[1400px]">
+	<h3 class=" text-3xl font-semibold pl-32 py-14  ">Subscribe Our News</h3>
+	<p class=" text-gray-500 flex pl-32 -my-12">
+		Subscribe and receive our newsletters to follow the news about our fresh and fantastic Products.
+	</p>
+	<div class="flex items-end justify-end -my-1 px-16">
+		<input
+			type="email"
+			name=""
+			id=""
+			class="bg-white text-brown-600 w-72 h-12 text-left pl-6"
+			placeholder="Your Email Address"
+		/><button class="bg-rose-600 text-white w-24 h-12">Button</button>
 	</div>
 </div>
