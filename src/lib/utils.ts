@@ -26,12 +26,10 @@ export async function post(endpoint: string, data: any, ck?: any) {
 	}
 }
 export async function gett(endpoint: string, ck?: any) {
-	const ck1 = cookie.parse(ck || '')
 	const ep = HTTP_ENDPOINT + '/api/' + endpoint
 	const response = await fetch(ep, {
 		method: 'GET',
 		credentials: 'include',
-		headers: { cookie: `sid=${ck1.sid}` }
 	})
 	const isJson = response.headers.get('content-type')?.includes('application/json')
 
