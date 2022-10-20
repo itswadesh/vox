@@ -1,4 +1,4 @@
-import * as env from '$env/static/public'
+// import * as env from '$env/static/public'
 export const authorInfo = {
 	author: 'Swadesh Behera',
 	facebookAuthorPage: `https://www.facebook.com/codenx`,
@@ -33,8 +33,8 @@ export const mediaqueries = {
 	noanimations: '(prefers-reduced-motion: reduce)'
 }
 export const currency = { symbol: '₹', code: 'INR' }
-export const HTTP_ENDPOINT = env.PUBLIC_HTTP_ENDPOINT || 'https://api.litekart.in'
-export const DOMAIN = env.PUBLIC_DOMAIN || 'kitcommerce.tech'
+export const HTTP_ENDPOINT =  'https://api.litekart.in'
+export const DOMAIN =  'kitcommerce.tech'
 export const IMAGE_CDN_URL = 'https://ik.imagekit.io/3wzatecz51w3i/zapvi'
 
 export const entity = 'KitCommerce'
