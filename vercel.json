@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:path*",
+            "destination": "https://staging.zapvi.in/api/:path*"
+        },
+        {
+            "source": "/images/:path*",
+            "destination": "https://staging.zapvi.in/images/:path*"
+        }
+    ],
+    "env": {
+        "PUBLIC_HTTP_ENDPOINT": "https://staging.zapvi.in",
+        "NODE_OPTIONS": "--max-old-space-size=7680"
+    }
+}
