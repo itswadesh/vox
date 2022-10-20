@@ -84,7 +84,9 @@ export const handle: Handle = async ({ event, resolve }) => {
 			DOMAIN,
 			isFnb: false
 		}
-			initRes = await gett(`init?domain=${DOMAIN}`)
+		if (!cookieStore || cookieStore === 'undefined') {
+			// const url = new URL(event.request.url)
+			initRes = await gett(`init?domain=${DOMAIN }`)
 			const { storeOne } = initRes
 			store = {
 				id: storeOne._id,
@@ -112,7 +114,9 @@ export const handle: Handle = async ({ event, resolve }) => {
 				DOMAIN: storeOne.DOMAIN
 			}
 			event.cookies.set('store', JSON.stringify(store), { path: '/' })
-		
+		} else {
+			store = JSON.parse(cookieStore)
+		}
 		return await resolve(event)
 	} catch (e) {
 		const err = `Store Not Found @Hook 
