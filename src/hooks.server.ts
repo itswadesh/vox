@@ -56,7 +56,7 @@ export const handleError = async ({ error, event }) => {
 export const handle: Handle = async ({ event, resolve }) => {
 	try {
 		let initRes
-		const WWW_URL = new URL(event.request.url).origin
+		const WWW_URL = 'https://vox-9nw.pages.dev'
 		event.locals.origin = WWW_URL
 		const cookieStore = event.cookies.get('store')
 		let store = {
@@ -85,8 +85,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 			isFnb: false
 		}
 		if (!cookieStore || cookieStore === 'undefined') {
-			const url = new URL(event.request.url)
-			initRes = await gett(`init?domain=${DOMAIN || url.host}`)
+			initRes = await gett(`init?domain=kitcommerce.tech`)
 			const { storeOne } = initRes
 			store = {
 				id: storeOne._id,
