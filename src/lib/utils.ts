@@ -28,17 +28,9 @@ export async function post(endpoint: string, data: any, ck?: any) {
 export async function gett(endpoint: string, ck?: any) {
 	const ep = HTTP_ENDPOINT + '/api/' + endpoint
 	const response = await fetch(ep, {
-		method: 'GET',
-		credentials: 'include',
+		method: 'GET'
 	})
-	const isJson = response.headers.get('content-type')?.includes('application/json')
-
-	const res = isJson ? await response.json() : await response.text()
-	if (res?.status > 399) {
-		throw { status: res.status, message: res }
-	} else if (response?.status > 399) {
-		throw { status: response.status, message: res }
-	} else {
+	const res = await response.json()
+	
 		return res
-	}
 }
