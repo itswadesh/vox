@@ -85,8 +85,8 @@ export const handle: Handle = async ({ event, resolve }) => {
 			isFnb: false
 		}
 		if (!cookieStore || cookieStore === 'undefined') {
-			// const url = new URL(event.request.url)
-			initRes = await gett(`init?domain=${DOMAIN }`)
+			const url = new URL(event.request.url)
+			initRes = await gett(`init?domain=${DOMAIN || url.host}`)
 			const { storeOne } = initRes
 			store = {
 				id: storeOne._id,
