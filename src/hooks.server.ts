@@ -117,6 +117,49 @@ export const handle: Handle = async ({ event, resolve }) => {
 		} else {
 			store = JSON.parse(cookieStore)
 		}
+		event.locals.store = store
+		// event.locals.megamenu = initRes.megamenu
+
+		// let me: any = event.cookies.get('me')
+		// if (!me) {
+		// 	try {
+		// 		if (me) {
+		// 			event.locals.me = {
+		// 				email: me.email,
+		// 				phone: me.phone,
+		// 				firstName: me.firstName,
+		// 				lastName: me.lastName,
+		// 				avatar: me.avatar,
+		// 				role: me.role,
+		// 				verified: me.verified,
+		// 				active: me.active
+		// 			}
+		// 		}
+		// 	} catch (e) {
+		// 		console.log('eeeeeeeeeeeeee', e)
+		// 	}
+		// } else {
+		// 	me = JSON.parse(me)
+		// 	event.locals.me = {
+		// 		email: me.email,
+		// 		phone: me.phone,
+		// 		firstName: me.firstName,
+		// 		lastName: me.lastName,
+		// 		avatar: me.avatar,
+		// 		role: me.role,
+		// 		verified: me.verified,
+		// 		active: me.active
+		// 	}
+		// }
+
+		const cartId: string = event.cookies.get('cartId')
+		const cartQty: string = event.cookies.get('cartQty')
+		// const cart: any = event.cookies.get('cart') || '{}'
+		event.locals.cartId = cartId
+		event.locals.cartQty = +cartQty
+		// event.locals.cart = JSON.parse(cart)
+		// load page as normal
+		// event.request.headers.delete('connection')
 		return await resolve(event)
 	} catch (e) {
 		const err = `Store Not Found @Hook 
