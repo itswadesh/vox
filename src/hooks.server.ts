@@ -86,78 +86,11 @@ export const handle: Handle = async ({ event, resolve }) => {
 		}
 		if (!cookieStore || cookieStore === 'undefined') {
 			initRes = await gett(`init?domain=kitcommerce.tech`)
-			const { storeOne } = initRes
-			store = {
-				id: storeOne._id,
-				domain: storeOne.domain,
-				email: storeOne.email,
-				address: storeOne.address,
-				phone: storeOne.phone,
-				otpLogin: storeOne.otpLogin,
-				websiteLegalName: storeOne.websiteLegalName,
-				websiteName: storeOne.websiteName,
-				title: storeOne.title,
-				description: storeOne.description,
-				keywords: storeOne.keywords,
-				stripePublishableKey: storeOne.stripePublishableKey,
-				logo: storeOne.logo,
-				facebookPage: storeOne.facebookPage,
-				instagramPage: storeOne.instagramPage,
-				twitterPage: storeOne.twitterPage,
-				linkedinPage: storeOne.linkedinPage,
-				pinterestPage: storeOne.pinterestPage,
-				youtubeChannel: storeOne.youtubeChannel,
-				GOOGLE_CLIENT_ID: storeOne.GOOGLE_CLIENT_ID,
-				GOOGLE_ANALYTICS_ID: storeOne.GOOGLE_ANALYTICS_ID,
-				isFnb: storeOne.isFnb,
-				DOMAIN: storeOne.DOMAIN
-			}
-			event.cookies.set('store', JSON.stringify(store), { path: '/' })
 		} else {
 			store = JSON.parse(cookieStore)
 		}
 		event.locals.store = store
-		// event.locals.megamenu = initRes.megamenu
-
-		let me: any = event.cookies.get('me')
-		if (!me) {
-			try {
-				if (me) {
-					event.locals.me = {
-						email: me.email,
-						phone: me.phone,
-						firstName: me.firstName,
-						lastName: me.lastName,
-						avatar: me.avatar,
-						role: me.role,
-						verified: me.verified,
-						active: me.active
-					}
-				}
-			} catch (e) {
-				console.log('eeeeeeeeeeeeee', e)
-			}
-		} else {
-			me = JSON.parse(me)
-			event.locals.me = {
-				email: me.email,
-				phone: me.phone,
-				firstName: me.firstName,
-				lastName: me.lastName,
-				avatar: me.avatar,
-				role: me.role,
-				verified: me.verified,
-				active: me.active
-			}
-		}
-
-		const cartId: string = event.cookies.get('cartId')
-		const cartQty: string = event.cookies.get('cartQty')
-		// const cart: any = event.cookies.get('cart') || '{}'
-		event.locals.cartId = cartId
-		event.locals.cartQty = +cartQty
-		// event.locals.cart = JSON.parse(cart)
-		// load page as normal
+		
 		event.request.headers.delete('connection')
 		return await resolve(event)
 	} catch (e) {
