@@ -91,16 +91,10 @@ const send = async ({ method, path, params, data, token, headers, origin }: any)
 		startDelayedLoadingIndicator()
 		let response = await fetch(url, opts)
 		cancelDelayedLoadingIndicator()
-		const isJson = response.headers.get('content-type')?.includes('application/json')
 
-		const res = isJson ? await response.json() : await response.text()
-		if (res?.status > 399) {
-			throw { status: res.status, message: res }
-		} else if (response?.status > 399) {
-			throw { status: response.status, message: res }
-		} else {
+		const res = await response.json() 
+		
 			return res
-		}
 	} catch (e) {
 		// const err = JSON.parse(e)
 		throw e
