@@ -54,8 +54,73 @@ export const handleError = async ({ error, event }) => {
 	}
 }
 export const handle: Handle = async ({ event, resolve }) => {
-	const	initRes = await gett(`init?domain=${DOMAIN}`)
+	try {
+		let initRes
+		const WWW_URL = new URL(event.request.url).origin
+		event.locals.origin = WWW_URL
+		const cookieStore = event.cookies.get('store')
+		let store = {
+			id,
+			domain,
+			logo,
+			email,
+			address,
+			phone,
+			otpLogin: false,
+			websiteName,
+			websiteLegalName,
+			title: siteTitle,
+			description,
+			keywords,
+			facebookPage,
+			instagramPage,
+			twitterPage,
+			linkedinPage,
+			pinterestPage,
+			youtubeChannel,
+			GOOGLE_CLIENT_ID,
+			GOOGLE_ANALYTICS_ID,
+			stripePublishableKey,
+			DOMAIN,
+			isFnb: false
+		}
+			initRes = await gett(`init?domain=${DOMAIN}`)
+			const { storeOne } = initRes
+			store = {
+				id: storeOne._id,
+				domain: storeOne.domain,
+				email: storeOne.email,
+				address: storeOne.address,
+				phone: storeOne.phone,
+				otpLogin: storeOne.otpLogin,
+				websiteLegalName: storeOne.websiteLegalName,
+				websiteName: storeOne.websiteName,
+				title: storeOne.title,
+				description: storeOne.description,
+				keywords: storeOne.keywords,
+				stripePublishableKey: storeOne.stripePublishableKey,
+				logo: storeOne.logo,
+				facebookPage: storeOne.facebookPage,
+				instagramPage: storeOne.instagramPage,
+				twitterPage: storeOne.twitterPage,
+				linkedinPage: storeOne.linkedinPage,
+				pinterestPage: storeOne.pinterestPage,
+				youtubeChannel: storeOne.youtubeChannel,
+				GOOGLE_CLIENT_ID: storeOne.GOOGLE_CLIENT_ID,
+				GOOGLE_ANALYTICS_ID: storeOne.GOOGLE_ANALYTICS_ID,
+				isFnb: storeOne.isFnb,
+				DOMAIN: storeOne.DOMAIN
+			}
+			event.cookies.set('store', JSON.stringify(store), { path: '/' })
 		
 		return await resolve(event)
-	
+	} catch (e) {
+		const err = `Store Not Found @Hook 
+			<br/>ID: ${event.locals.store?.id}
+			<br/>ORIGIN: ${event.locals?.origin}
+			<br/>DOMAIN(env): ${DOMAIN}
+			<br/>HTTP_ENDPOINT(env): ${HTTP_ENDPOINT}`
+		console.log('Err at Hooks...', err)
+		throw error(404, err)
+	}
 }
